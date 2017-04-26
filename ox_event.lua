@@ -30,8 +30,8 @@ quest ox_event begin
 			local settings = {}
 			
 			--[[ @!important
-				note: you should not translate the weekdays in the settings! the weekdays have to be in english in order to make the os.date condition work. (line 76)
-				: to transalte the weekdays, find the line 24 and change the values of the second column to your desired language.
+				note: you should not translate the weekdays in the settings! the weekdays have to be in english in order to make the os.date condition work.
+				: to transalte the weekdays, find the function "translate_weekday" and edit the table values of the second column to your desired language.
 			]]
 			settings.open_datetime = {"Friday 21:00", "Saturday 21:00", "Sunday 10:30", "Sunday 21:00"} -- datetime to trigger event [weekday, hours, minutes]
 			settings.open_time = 60*5 -- open time for gates [default: 60*5 = 5min] (note: time after open_datetime)
