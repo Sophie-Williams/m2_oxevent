@@ -13,4 +13,4 @@ Do not translate the weekdays in the settings!
 
 ## License
 
-m2_oxevent is released under the MIT license. See LICENSE for details.
+m2_oxevent is released under the GNU General Public License v3.0. See LICENSE for details.
