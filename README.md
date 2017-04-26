@@ -28,7 +28,7 @@ settings.end_time = 10 -- delay to end event [default: 10 = 10sec]
 {"Monday",	"Monday"}, 
 {"Tuesday",	"Tuesday"},
 {"Wednesday",	"Wednesday"},
-{"Thursday",  "Thursday"},
+{"Thursday",    "Thursday"},
 {"Friday",	"Friday"},
 {"Saturday",	"Saturday"},
 {"Sunday",	"Sunday"}
