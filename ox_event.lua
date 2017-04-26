@@ -49,13 +49,13 @@ quest ox_event begin
 			
 			local weekdays = {
 				-- do not translate first column
-				{"Monday",		"Monday"}, 
-				{"Tuesday",		"Tuesday"},
+				{"Monday",	"Monday"}, 
+				{"Tuesday",	"Tuesday"},
 				{"Wednesday",	"Wednesday"},
 				{"Thursday",	"Thursday"},
-				{"Friday",		"Friday"},
+				{"Friday",	"Friday"},
 				{"Saturday",	"Saturday"},
-				{"Sunday",		"Sunday"}
+				{"Sunday",	"Sunday"}
 			}
 			
 			for index, weekday in ipairs(weekdays) do
